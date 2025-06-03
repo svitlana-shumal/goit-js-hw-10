@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -12,8 +13,9 @@
         <a href="./index.html" class="back-link">Back</a>
     </button>
     <div class="container">
-        <input type="text" id="datetime-picker" />
-        <button type="button" data-start>Start</button>
+        <input type="text" id="datetime-picker" class="input" />
+        <button type="button" data-start class="button">Start</button>
+
         <div class="timer">
             <div class="field">
                 <span class="value" data-days>00</span>
@@ -33,7 +35,6 @@
             </div>
         </div>
     </div>
-
     <script type="module" src="./js/1-timer.js"></script>
 </body>
 
